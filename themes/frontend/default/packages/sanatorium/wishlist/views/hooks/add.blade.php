@@ -1,4 +1,4 @@
-<form method="POST" action="{{ route('sanatorium.wishlist.wishlist.add') }}" class="form-inline form-to-cart" role="form">
+<form method="POST" action="{{ route('sanatorium.wishlist.wishlist.add') }}" class="form-inline form-to-cart form-to-wishlist" role="form">
 	<input type="hidden" name="id" value="{{ $object->id }}">
 	<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
